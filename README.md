@@ -3,7 +3,7 @@
 ###Easy and type safe custom object property define
 
 - object descriptors in a space seperated string for fast inline value creation
-- dynamically type checked and save
+- dynamically type checked
 
 
 
