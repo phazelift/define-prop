@@ -9,20 +9,20 @@
 
 ###Usage:
 
-> `<object> defineProp( <object> obj, <string>/<number> key, <any type> value, <string> descriptorNames )`
+> `<object> defineProperty( <object> obj, <string>/<number> key, <any type> value, <string> descriptorNames )`
 
 
 Default, the enumerable, configurable and writable descriptor values are set to false, which is the default behaviour of Object.defineProperty. You can set them individually to true by passing their names as last argument in a space seperated string.
 
 
 ```javascript
-var defineProp= require( 'define-prop' );
+var defineProperty= require( 'define-prop' );
 
 var obj= {};
 
 // let's define obj.hello and give it the value 'world!', it will be 
 // immutable by default, we only set enumerable to be able to log it now
-defineProp( obj, 'hello', 'world!', 'enumerable' );
+defineProperty( obj, 'hello', 'world!', 'enumerable' );
 obj.hello= 'into a black hole';
 
 console.log( obj );
