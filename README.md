@@ -39,4 +39,19 @@ console.log( ++obj.count );
 // 1
 ```
 
+<br/>
+
+<h3>change log</h3>
+--
+
+**0.0.3**
+
+- changed license to MIT
+
+--
+
+###license
+
+MIT
+
 
