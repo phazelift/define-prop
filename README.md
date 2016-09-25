@@ -19,7 +19,7 @@ Default, the enumerable, configurable and writable descriptor values are set to 
 
 
 ```javascript
-var defineProperty= require( 'define-prop' );
+var defineProp= require( 'define-prop' );
 
 
 var obj= {};

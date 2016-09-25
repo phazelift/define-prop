@@ -1,6 +1,6 @@
 {
   "name": "define-prop",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "Easy and type safe custom object property define",
   "main": "define-prop.min.js",
   "dependencies": {
